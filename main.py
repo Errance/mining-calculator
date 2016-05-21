@@ -21,7 +21,7 @@ def initialize():
     d = init_params.get('btc_price')
     btc_per_block = 25
 
-    total_cost_machine = int(c) * int(b)
+    total_cost_machine = float(c) * float(b)
     print total_cost_machine
     daily_electric_fee = ((float(x)*int(a)*int(b))/1000)*24
     print daily_electric_fee
