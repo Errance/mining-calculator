@@ -26,4 +26,5 @@ def daily_profit(amount):
 
     print "You will mine 1 block in %.2f days" % round(time_day, 2)
     print "You will gain %.2f BTC in one day" % round(day_profit, 2)
+
     return round(day_gain, 2)
